@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-html, body, .pesca-resume-main, .pesca-resume-header-row, .pesca-resume-header-info, 
+html, body, .peralta-resume-main, .peralta-resume-header-row, .peralta-resume-header-info, 
 .resume-name, .resume-lname, .resume-role, .resume-summary, 
 .resume-content-row, .resume-left, .resume-right, 
 .resume-section, .resume-label, .resume-contact, 
@@ -29,7 +29,7 @@ body {
     background: linear-gradient(120deg, #23272b 0%, #20232a 100%);
 }
 
-.pesca-resume-main {
+.peralta-resume-main {
     max-width: 1100px;
     margin: 40px auto;
     background: rgba(39, 41, 45, 0.98);
@@ -43,11 +43,11 @@ body {
     transition: box-shadow 0.3s;
 }
 
-.pesca-resume-main:hover {
+.peralta-resume-main:hover {
     box-shadow: 0 16px 38px rgba(56,189,248,0.12), 0 1.5px 14px rgba(56,189,248,0.10);
 }
 
-.pesca-resume-header-row {
+.peralta-resume-header-row {
     display: flex;
     align-items: center;
     padding: 40px 48px 0 48px;
@@ -56,17 +56,17 @@ body {
     background: linear-gradient(90deg, #23272b 85%, #38bdf8 200%);
     position: relative;
 }
-.pesca-resume-header-row::before {
+.peralta-resume-header-row::before {
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background: radial-gradient(circle at 20% 20%, #38bdf820 0%, transparent 70%);
     z-index: 0;
 }
-.pesca-resume-photo {
+.peralta-resume-photo {
     z-index: 1;
 }
-.pesca-resume-photo img {
+.peralta-resume-photo img {
     width: 170px;
     height: 170px;
     object-fit: cover;
@@ -76,11 +76,11 @@ body {
     box-shadow: 0 2px 16px #38bdf835;
     transition: transform 0.2s;
 }
-.pesca-resume-photo img:hover {
+.peralta-resume-photo img:hover {
     transform: scale(1.04) rotate(-1deg);
     box-shadow: 0 6px 24px #38bdf870;
 }
-.pesca-resume-header-info {
+.peralta-resume-header-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -226,10 +226,10 @@ footer.resume-footer h3 {
 }
 
 @media (max-width: 900px) {
-    .pesca-resume-main {
+    .peralta-resume-main {
         max-width: 98vw;
     }
-    .pesca-resume-header-row {
+    .peralta-resume-header-row {
         flex-direction: column;
         padding-left: 18px;
         padding-right: 18px;
@@ -263,11 +263,11 @@ footer.resume-footer h3 {
     .resume-footer-contact, .resume-footer-socials {
         width: 100%;
     }
-    .pesca-resume-header-row {
+    .peralta-resume-header-row {
         padding-top: 26px;
         padding-bottom: 10px;
     }
-    .pesca-resume-photo img {
+    .peralta-resume-photo img {
         width: 120px;
         height: 120px;
     }
@@ -280,7 +280,7 @@ footer.resume-footer h3 {
 }
 
 @media (max-width: 500px) {
-    .pesca-resume-main {
+    .peralta-resume-main {
         border-radius: 8px;
     }
     .resume-label {
